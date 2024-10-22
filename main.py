@@ -9,10 +9,6 @@ import seaborn as sns
 from nltk.tokenize import word_tokenize
 from collections import Counter
 
-
-# Uncomment if you're using Jupyter Notebook
-# %matplotlib inline
-
 # Load the datasets
 class PTBDataset(Dataset):
     def __init__(self, file_path, tokenizer):
